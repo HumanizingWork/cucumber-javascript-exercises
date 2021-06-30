@@ -1,0 +1,17 @@
+{
+  "name": "cucumber-javascript-exercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cucumber": "./node_modules/.bin/cucumber-js",
+    "only": "npm run cucumber -- --tags @only",
+    "test": "npm run cucumber"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.3.0"
+  }
+}
